@@ -16,6 +16,7 @@ nc irctun.supernets.org 6667
 
 You get a WeeChat-style TUI with channel list, nicklist, color-coded messages, and PM windows — rendered entirely with ANSI escape codes over a raw TCP connection.
 
+![Preview](.screens/preview.png)
 
 ## Build & Run (tunnel)
 
@@ -43,3 +44,6 @@ Listens on `:6667`. Connects users to `irc.supernets.org` and auto-joins `#super
 | `/help` | Full command list |
 | `↑` + Enter | Recall last command |
 
+---
+
+###### Mirrors: [SuperNETs](https://git.supernets.org/acidvegas/irctun) • [GitHub](https://github.com/acidvegas/irctun) • [GitLab](https://gitlab.com/acidvegas/irctun) • [Codeberg](https://codeberg.org/acidvegas/irctun)
